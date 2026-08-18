@@ -1,0 +1,21 @@
+transaction_id,date,customer_id,customer_name,product,category,quantity,unit_price,total_sale
+1,2026-08-01,C001,Thabo Mokoena,Rice,Groceries,2,45.0,90.0
+2,2026-08-01,C002,Amanda Smith,Bread,Groceries,3,18.0,54.0
+3,2026-08-02,C001,Thabo Mokoena,Milk,Dairy,2,22.0,44.0
+4,2026-08-02,C003,John Dube,Coffee,Beverages,1,55.0,55.0
+5,2026-08-03,C004,Lerato Molefe,Shampoo,Personal Care,2,65.0,130.0
+6,2026-08-03,C002,Amanda Smith,Rice,Groceries,1,45.0,45.0
+7,2026-08-04,C005,Neo Williams,Juice,Beverages,4,20.0,80.0
+8,2026-08-04,C001,Thabo Mokoena,Bread,Groceries,2,18.0,36.0
+9,2026-08-05,C006,Karabo Dlamini,Soap,Personal Care,3,25.0,75.0
+10,2026-08-05,C002,Amanda Smith,Coffee,Beverages,2,55.0,110.0
+11,2026-08-06,C003,John Dube,Rice,Groceries,3,45.0,135.0
+12,2026-08-06,C007,Boitumelo Ndlovu,Cereal,Groceries,2,50.0,100.0
+13,2026-08-07,C001,Thabo Mokoena,Coffee,Beverages,1,55.0,55.0
+14,2026-08-07,C005,Neo Williams,Milk,Dairy,3,22.0,66.0
+15,2026-08-08,C002,Amanda Smith,Bread,Groceries,5,18.0,90.0
+16,2026-08-08,C008,Mpho Seboko,Toothpaste,Personal Care,2,35.0,70.0
+17,2026-08-09,C004,Lerato Molefe,Rice,Groceries,2,45.0,90.0
+18,2026-08-09,C001,Thabo Mokoena,Juice,Beverages,2,20.0,40.0
+19,2026-08-10,C006,Karabo Dlamini,Milk,Dairy,2,22.0,44.0
+20,2026-08-10,C002,Amanda Smith,Rice,Groceries,3,45.0,135.0
