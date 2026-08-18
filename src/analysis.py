@@ -1,18 +1,21 @@
 import pandas as pd
 
 
-def best_selling_products(df):
-    result = (
-        df.groupby("product")["quantity"]
+def best_selling_products(data):
+    return (
+        data.groupby("product", as_index=False)["quantity"]
         .sum()
-        .reset_index()
+        .sort_values(
+            by=["quantity", "product"],
+            ascending=[False, True]
+        )
+        .reset_index(drop=True)
     )
 
-    result = result.rename(
-        columns={"quantity": "units_sold"}
+def regular_customers(data):
+    return (
+        data.groupby(["customer_id", "customer_name"])
+        .size()
+        .sort_values(ascending=False)
+        .reset_index(name="number_of_purchases")
     )
-
-    return result.sort_values(
-        "units_sold",
-        ascending=False
-    ).reset_index(drop=True)
